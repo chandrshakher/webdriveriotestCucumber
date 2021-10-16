@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633967635358' stop='1633967635368'>
+    <name>My Store registraction feature: My Store test</name>
+    <title>My Store registraction feature: My Store test</title>
+    <test-cases>
+        <test-case start='1633967635360' status='passed' stop='1633967635363'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633967635363' status='broken' stop='1633967635365'>
+            <name>Given i open browser and load urlhttp://automationpractice.com/index.php/</name>
+            <title>Given i open browser and load urlhttp://automationpractice.com/index.php/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "i open browser and load urlhttp://automationpractice.com/index.php/" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "i open browser and load urlhttp://automationpractice.com/index.php/" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/chandrayadav/Desktop/webdriveriotestCucumber/features/registraction.feature):1:1
+                	at Scenario(My Store test):3:5
+                	at Step(i open browser and load url&lt;registractionpageurl>):4:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633967635365' status='broken' stop='1633967635366'>
+            <name>Then i should see  message with text My Store</name>
+            <title>Then i should see  message with text My Store</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "i should see  message with text My Store" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "i should see  message with text My Store" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/chandrayadav/Desktop/webdriveriotestCucumber/features/registraction.feature):1:1
+                	at Scenario(My Store test):3:5
+                	at Step(i should see  message with text &lt;headermessage>):5:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633967635366' status='passed' stop='1633967635367'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

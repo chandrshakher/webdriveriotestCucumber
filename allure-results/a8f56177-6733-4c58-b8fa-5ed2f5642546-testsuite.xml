@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634028297930' stop='1634028297986'>
+    <name>My Store registraction feature: My Store test</name>
+    <title>My Store registraction feature: My Store test</title>
+    <test-cases>
+        <test-case start='1634028297931' status='passed' stop='1634028297935'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634028297936' status='broken' stop='1634028297970'>
+            <name>Given i am on page</name>
+            <title>Given i am on page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                to use the callback interface: do not return a promise
+                to use the promise interface: remove the last argument to the function
+                    at Object.run (/Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/user_code_runner.ts:51:16)
+                    at Object.run (/Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:53:41)
+                    at async TestCaseRunner.invokeStep (/Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:131:12)
+                    at async TestCaseRunner.runStep (/Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:316:20)
+                    at async /Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:222:36
+                    at async TestCaseRunner.aroundTestStep (/Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:164:28)
+                    at async TestCaseRunner.run (/Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:203:9)
+                    at async Runtime.runTestCase (/Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/index.ts:123:20)
+                    at async /Users/chandrayadav/Desktop/webdriveriotestCucumber/node_modules/@cucumber/cucumber/src/runtime/index.ts:153:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634028297971' status='pending' stop='1634028297984'>
+            <name>Then user click on sign button</name>
+            <title>Then user click on sign button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634028297984' status='pending' stop='1634028297984'>
+            <name>Given user enter username cs.niet@gmail.com</name>
+            <title>Given user enter username cs.niet@gmail.com</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634028297984' status='pending' stop='1634028297985'>
+            <name>Then user click on create an account</name>
+            <title>Then user click on create an account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634028297985' status='passed' stop='1634028297985'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

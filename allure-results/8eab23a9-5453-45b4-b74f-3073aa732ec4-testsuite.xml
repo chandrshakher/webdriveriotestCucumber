@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634392122721' stop='1634392128810'>
+    <name>My Store registraction feature: My Store test</name>
+    <title>My Store registraction feature: My Store test</title>
+    <test-cases>
+        <test-case start='1634392122722' status='passed' stop='1634392122724'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634392122724' status='passed' stop='1634392128669'>
+            <name>Given i am on page</name>
+            <title>Given i am on page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1634392122728' status='passed' stop='1634392128663'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cb3ebd75-9308-40d0-bd29-2411ab914782-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634392128663' status='undefined'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634392128669' status='broken' stop='1634392128807'>
+            <name>Then user click on sign button</name>
+            <title>Then user click on sign button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1634392128673' status='passed' stop='1634392128699'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='82e5446b-c1ff-412e-aab5-88a012fd3ee5-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='bf8465ab-4484-44ad-b5ed-4e1d5421d45a-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: An invalid or illegal selector was specified</message>
+                <stack-trace>invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=94.0.4606.81)
+                0   chromedriver                        0x000000010494b5e9 chromedriver + 2749929
+                1   chromedriver                        0x00000001050025c3 chromedriver + 9790915
+                2   chromedriver                        0x00000001046d6828 chromedriver + 174120
+                3   chromedriver                        0x00000001046d96a1 chromedriver + 186017
+                4   chromedriver                        0x00000001046d94c1 chromedriver + 185537
+                5   chromedriver                        0x00000001046d975c chromedriver + 186204
+                6   chromedriver                        0x000000010470b17c chromedriver + 389500
+                7   chromedriver                        0x000000010473ced4 chromedriver + 593620
+                8   chromedriver                        0x000000010472866d chromedriver + 509549
+                9   chromedriver                        0x000000010473ac6b chromedriver + 584811
+                10  chromedriver                        0x0000000104728933 chromedriver + 510259
+                11  chromedriver                        0x00000001046fed6e chromedriver + 339310
+                12  chromedriver                        0x0000000104700095 chromedriver + 344213
+                13  chromedriver                        0x00000001049123bf chromedriver + 2515903
+                14  chromedriver                        0x0000000104924f2f chromedriver + 2592559
+                15  chromedriver                        0x00000001048f6bdf chromedriver + 2403295
+                16  chromedriver                        0x00000001049262da chromedriver + 2597594
+                17  chromedriver                        0x0000000104907bcc chromedriver + 2472908
+                18  chromedriver                        0x000000010493f988 chromedriver + 2701704
+                19  chromedriver                        0x000000010493fb11 chromedriver + 2702097
+                20  chromedriver                        0x00000001049505e8 chromedriver + 2770408
+                21  libsystem_pthread.dylib             0x00007fff715ec109 _pthread_start + 148
+                22  libsystem_pthread.dylib             0x00007fff715e7b8b thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1634392128808' status='pending' stop='1634392128808'>
+            <name>Given user enter username cs.niet@gmail.com</name>
+            <title>Given user enter username cs.niet@gmail.com</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634392128808' status='pending' stop='1634392128808'>
+            <name>Then user click on create an account</name>
+            <title>Then user click on create an account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1634392128808' status='passed' stop='1634392128809'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
